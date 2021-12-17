@@ -10,7 +10,7 @@ In this project, I use an adaptation of U-Net with residual connections. This pa
 I utilized the general structure of the network with the same number of downsamples with 3 skip-connections. 
 U-Net architecture:  [paper link](https://arxiv.org/pdf/1505.04597.pdf)
 
-![Image with Predictions!](/imgs/doc_unet.png "Image with Predictions")
+![unet arch!](/imgs/doc_unet.png "unet arch")
 
 Each block additionally contains a residual connection as well to pass previous information along throughout the network for improvements. The general procedure for a residual connection can be found here:
 
